@@ -31,7 +31,7 @@ export default function NavigatorSidebar({ onProfileComplete, hasProfile }) {
 
       // FIX: Updated the URL route here! 
       // If this still fails, try changing it to just "/api/chat" or "/api/navigator-chat" depending on your app.js setup!
-     const response = await fetch("http://localhost:3000/api/navigator-chat", {
+     const response = await fetch("https://et-ai-concierge-fylx.onrender.com//api/navigator-chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

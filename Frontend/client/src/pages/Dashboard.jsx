@@ -66,7 +66,7 @@ export default function Dashboard({ user, setUser }) {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:3000/api/chat', {
+      const response = await fetch('https://et-ai-concierge-fylx.onrender.com//api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: userMsg.content, userId: user.id, currentPersona: user.persona || {} })

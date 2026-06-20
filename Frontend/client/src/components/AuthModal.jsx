@@ -15,7 +15,7 @@ export default function AuthModal({ onClose, onLoginSuccess }) {
     const payload = isLogin ? { email: formData.email, password: formData.password } : formData;
 
     try {
-      const response = await fetch(`http://localhost:3000${endpoint}`, {
+      const response = await fetch(`https://et-ai-concierge-fylx.onrender.com/${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)

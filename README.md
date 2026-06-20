@@ -80,7 +80,7 @@ npm run dev
 ```
 
 ** Backend runs on: **
-http://localhost:3000
+https://et-ai-concierge-fylx.onrender.com/
 
 ## 2️⃣ Frontend Setup
 ```
@@ -89,7 +89,7 @@ npm install
 ```
 ### Create .env inside Frontend
 ```
-VITE_API_BASE_URL=http://localhost:3000/api
+VITE_API_BASE_URL=https://et-ai-concierge-fylx.onrender.com//api
 ```
 ### Start Frontend
 ```

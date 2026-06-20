@@ -1,7 +1,7 @@
 // testChat.js
 
 async function testConcierge() {
-    const url = 'http://localhost:3000/api/chat'; // Change 3000 if your server uses a different port
+    const url = 'https://et-ai-concierge-fylx.onrender.com//api/chat'; // Change 3000 if your server uses a different port
 
     const payload = {
         message: "I just got my first job and I really need to save on taxes. What's the best way to do that?",
